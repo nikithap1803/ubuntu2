@@ -1,17 +1,9 @@
 #!/bin/bash
-echo "Enter the directory name"
-read a
 
-mkdir $a
-cd $a
+mkdir Gang
+cd Gang
 
-echo "Enter the sub directory name"
-read b
+mkdir Yamun
+cd Yamun
 
-mkdir $b
-cd $b
-
-echo "Enter the file name"
-read c
-
-touch $c 
+touch Kaver
